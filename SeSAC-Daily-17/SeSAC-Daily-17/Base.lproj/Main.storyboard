@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QlO-AP-vdU">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PapagoViewController-->
+        <scene sceneID="djG-Df-O0p">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PapagoViewController" id="dhN-au-sIV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="h9b-Cb-ztU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n2f-3d-pSR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2818" y="-479"/>
+        </scene>
+        <!--BookViewController-->
+        <scene sceneID="xcc-rQ-83F">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BookViewController" id="sDU-YG-aI5" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xg8-PM-KIO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N55-rk-biX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2807" y="236"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="h2d-je-nYc">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="QlO-AP-vdU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jij-IZ-mhl">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="0lf-w0-qeG" kind="relationship" relationship="viewControllers" id="6Hj-VC-Hux"/>
+                        <segue destination="tjM-Co-4QR" kind="relationship" relationship="viewControllers" id="yzh-DH-phT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wSA-1N-ZWE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916.79389312977094" y="-78.873239436619727"/>
+        </scene>
+        <!--Papago-->
+        <scene sceneID="Z2l-XT-gDI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0lf-w0-qeG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Papago" image="bird.fill" catalog="system" id="ahP-HM-mPd"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rMh-e9-1bU">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dhN-au-sIV" kind="relationship" relationship="rootViewController" id="qbh-Yu-Wmo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H4Q-ge-XOl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2076" y="-479"/>
+        </scene>
+        <!--Book-->
+        <scene sceneID="4pM-Ns-FO4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tjM-Co-4QR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Book" image="book" catalog="system" id="7y8-sP-4b4"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XAW-qC-xVV">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sDU-YG-aI5" kind="relationship" relationship="rootViewController" id="sqI-oG-K7e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m8h-sv-tvG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2076" y="236"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bird.fill" catalog="system" width="126" height="128"/>
+        <image name="book" catalog="system" width="128" height="99"/>
+    </resources>
+</document>

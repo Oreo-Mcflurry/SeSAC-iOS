@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEBF8332B46716B00AE88AB /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0BEBF8322B46716B00AE88AB /* IQKeyboardManagerSwift */; };
+		0BEBF8362B4671A000AE88AB /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 0BEBF8352B4671A000AE88AB /* FSCalendar */; };
+		0BEBF8392B46721100AE88AB /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 0BEBF8382B46721100AE88AB /* TextFieldEffects */; };
+		0BEBF83C2B46735500AE88AB /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 0BEBF83B2B46735500AE88AB /* Toast */; };
+		0BEBF83F2B46739D00AE88AB /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 0BEBF83E2B46739D00AE88AB /* SideMenu */; };
+		0BEBF8422B46782900AE88AB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0BEBF8412B46782900AE88AB /* Kingfisher */; };
+		0BEBF85C2B46BFC700AE88AB /* EmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBF85B2B46BFC700AE88AB /* EmotionViewController.swift */; };
+		0BEBF85E2B46CEB400AE88AB /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBF85D2B46CEB400AE88AB /* PracticeViewController.swift */; };
+		0BEBF8602B478E0400AE88AB /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBF85F2B478E0400AE88AB /* YoutubeViewController.swift */; };
+		0BFD14232B4591480013067B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD14222B4591480013067B /* AppDelegate.swift */; };
+		0BFD14252B4591480013067B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD14242B4591480013067B /* SceneDelegate.swift */; };
+		0BFD14272B4591480013067B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD14262B4591480013067B /* ViewController.swift */; };
+		0BFD142A2B4591480013067B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BFD14282B4591480013067B /* Main.storyboard */; };
+		0BFD142C2B4591490013067B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BFD142B2B4591490013067B /* Assets.xcassets */; };
+		0BFD142F2B4591490013067B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BFD142D2B4591490013067B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BEBF85B2B46BFC700AE88AB /* EmotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionViewController.swift; sourceTree = "<group>"; };
+		0BEBF85D2B46CEB400AE88AB /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		0BEBF85F2B478E0400AE88AB /* YoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
+		0BFD141F2B4591480013067B /* SeSAC Daily 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeSAC Daily 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BFD14222B4591480013067B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BFD14242B4591480013067B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0BFD14262B4591480013067B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BFD14292B4591480013067B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BFD142B2B4591490013067B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BFD142E2B4591490013067B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BFD14302B4591490013067B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BFD141C2B4591480013067B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEBF8422B46782900AE88AB /* Kingfisher in Frameworks */,
+				0BEBF83C2B46735500AE88AB /* Toast in Frameworks */,
+				0BEBF8392B46721100AE88AB /* TextFieldEffects in Frameworks */,
+				0BEBF8332B46716B00AE88AB /* IQKeyboardManagerSwift in Frameworks */,
+				0BEBF83F2B46739D00AE88AB /* SideMenu in Frameworks */,
+				0BEBF8362B4671A000AE88AB /* FSCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BFD14162B4591480013067B = {
+			isa = PBXGroup;
+			children = (
+				0BFD14212B4591480013067B /* SeSAC Daily 7 */,
+				0BFD14202B4591480013067B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BFD14202B4591480013067B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BFD141F2B4591480013067B /* SeSAC Daily 7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BFD14212B4591480013067B /* SeSAC Daily 7 */ = {
+			isa = PBXGroup;
+			children = (
+				0BEBF85B2B46BFC700AE88AB /* EmotionViewController.swift */,
+				0BFD14222B4591480013067B /* AppDelegate.swift */,
+				0BFD14242B4591480013067B /* SceneDelegate.swift */,
+				0BFD14262B4591480013067B /* ViewController.swift */,
+				0BFD14282B4591480013067B /* Main.storyboard */,
+				0BEBF85F2B478E0400AE88AB /* YoutubeViewController.swift */,
+				0BEBF85D2B46CEB400AE88AB /* PracticeViewController.swift */,
+				0BFD142B2B4591490013067B /* Assets.xcassets */,
+				0BFD142D2B4591490013067B /* LaunchScreen.storyboard */,
+				0BFD14302B4591490013067B /* Info.plist */,
+			);
+			path = "SeSAC Daily 7";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BFD141E2B4591480013067B /* SeSAC Daily 7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BFD14332B4591490013067B /* Build configuration list for PBXNativeTarget "SeSAC Daily 7" */;
+			buildPhases = (
+				0BFD141B2B4591480013067B /* Sources */,
+				0BFD141C2B4591480013067B /* Frameworks */,
+				0BFD141D2B4591480013067B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SeSAC Daily 7";
+			packageProductDependencies = (
+				0BEBF8322B46716B00AE88AB /* IQKeyboardManagerSwift */,
+				0BEBF8352B4671A000AE88AB /* FSCalendar */,
+				0BEBF8382B46721100AE88AB /* TextFieldEffects */,
+				0BEBF83B2B46735500AE88AB /* Toast */,
+				0BEBF83E2B46739D00AE88AB /* SideMenu */,
+				0BEBF8412B46782900AE88AB /* Kingfisher */,
+			);
+			productName = "SeSAC Daily 7";
+			productReference = 0BFD141F2B4591480013067B /* SeSAC Daily 7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BFD14172B4591480013067B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					0BFD141E2B4591480013067B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 0BFD141A2B4591480013067B /* Build configuration list for PBXProject "SeSAC Daily 7" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BFD14162B4591480013067B;
+			packageReferences = (
+				0BEBF8312B46716B00AE88AB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				0BEBF8342B4671A000AE88AB /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				0BEBF8372B46721100AE88AB /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+				0BEBF83A2B46735500AE88AB /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				0BEBF83D2B46739D00AE88AB /* XCRemoteSwiftPackageReference "SideMenu" */,
+				0BEBF8402B46782900AE88AB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 0BFD14202B4591480013067B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BFD141E2B4591480013067B /* SeSAC Daily 7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BFD141D2B4591480013067B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFD142F2B4591490013067B /* LaunchScreen.storyboard in Resources */,
+				0BFD142C2B4591490013067B /* Assets.xcassets in Resources */,
+				0BFD142A2B4591480013067B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BFD141B2B4591480013067B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEBF85C2B46BFC700AE88AB /* EmotionViewController.swift in Sources */,
+				0BFD14272B4591480013067B /* ViewController.swift in Sources */,
+				0BEBF8602B478E0400AE88AB /* YoutubeViewController.swift in Sources */,
+				0BFD14232B4591480013067B /* AppDelegate.swift in Sources */,
+				0BEBF85E2B46CEB400AE88AB /* PracticeViewController.swift in Sources */,
+				0BFD14252B4591480013067B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BFD14282B4591480013067B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BFD14292B4591480013067B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BFD142D2B4591490013067B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BFD142E2B4591490013067B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BFD14312B4591490013067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BFD14322B4591490013067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BFD14342B4591490013067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7F2ZW9QG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SeSAC Daily 7/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yoo.SeSAC-Daily-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BFD14352B4591490013067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7F2ZW9QG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SeSAC Daily 7/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yoo.SeSAC-Daily-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BFD141A2B4591480013067B /* Build configuration list for PBXProject "SeSAC Daily 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BFD14312B4591490013067B /* Debug */,
+				0BFD14322B4591490013067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BFD14332B4591490013067B /* Build configuration list for PBXNativeTarget "SeSAC Daily 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BFD14342B4591490013067B /* Debug */,
+				0BFD14352B4591490013067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BEBF8312B46716B00AE88AB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.16;
+			};
+		};
+		0BEBF8342B4671A000AE88AB /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
+		0BEBF8372B46721100AE88AB /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.0;
+			};
+		};
+		0BEBF83A2B46735500AE88AB /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		0BEBF83D2B46739D00AE88AB /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+		0BEBF8402B46782900AE88AB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BEBF8322B46716B00AE88AB /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BEBF8312B46716B00AE88AB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		0BEBF8352B4671A000AE88AB /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BEBF8342B4671A000AE88AB /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+		0BEBF8382B46721100AE88AB /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BEBF8372B46721100AE88AB /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
+		0BEBF83B2B46735500AE88AB /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BEBF83A2B46735500AE88AB /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		0BEBF83E2B46739D00AE88AB /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BEBF83D2B46739D00AE88AB /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		0BEBF8412B46782900AE88AB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BEBF8402B46782900AE88AB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0BFD14172B4591480013067B /* Project object */;
+}

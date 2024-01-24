@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AD2255EE-3C1A-4187-817A-253FF621BA2D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E7DFB25-2F97-454E-9DA7-C65000BC9031"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeSAC Daily 7/EmotionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "pressButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E7DFB25-2F97-454E-9DA7-C65000BC9031 - a1015cd7dcdcfbc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeSAC_Daily_7.EmotionViewController.pressButton(__C.UIButton) -&gt; ()"
+                  moduleName = "SeSAC Daily 7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SeSAC-iOS/8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8E%E1%85%A1/SeSAC%20Daily%207/SeSAC%20Daily%207/EmotionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "5E7DFB25-2F97-454E-9DA7-C65000BC9031 - a1015cd7dcdcfbc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeSAC_Daily_7.EmotionViewController.pressButton(__C.UIButton) -&gt; ()"
+                  moduleName = "SeSAC Daily 7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SeSAC-iOS/8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8E%E1%85%A1/SeSAC%20Daily%207/SeSAC%20Daily%207/EmotionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBC88674-19D4-4763-919C-F1734FA16D18"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeSAC Daily 7/EmotionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "pressButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FBC88674-19D4-4763-919C-F1734FA16D18 - a1015cd7dcdcfa49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeSAC_Daily_7.EmotionViewController.pressButton(__C.UIButton) -&gt; ()"
+                  moduleName = "SeSAC Daily 7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SeSAC-iOS/8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8E%E1%85%A1/SeSAC%20Daily%207/SeSAC%20Daily%207/EmotionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "780">
+               </Location>
+               <Location
+                  uuid = "FBC88674-19D4-4763-919C-F1734FA16D18 - a1015cd7dcdcfa49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeSAC_Daily_7.EmotionViewController.pressButton(__C.UIButton) -&gt; ()"
+                  moduleName = "SeSAC Daily 7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SeSAC-iOS/8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8E%E1%85%A1/SeSAC%20Daily%207/SeSAC%20Daily%207/EmotionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1272">
+               </Location>
+               <Location
+                  uuid = "FBC88674-19D4-4763-919C-F1734FA16D18 - a1015cd7dcdcfa0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeSAC_Daily_7.EmotionViewController.pressButton(__C.UIButton) -&gt; ()"
+                  moduleName = "SeSAC Daily 7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SeSAC-iOS/8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8E%E1%85%A1/SeSAC%20Daily%207/SeSAC%20Daily%207/EmotionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2ED3C32F-7FCA-489A-A90B-9CE3C872CAD1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeSAC Daily 7/EmotionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "pressButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2ED3C32F-7FCA-489A-A90B-9CE3C872CAD1 - a1015cd7dcdcfbe2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeSAC_Daily_7.EmotionViewController.pressButton(__C.UIButton) -&gt; ()"
+                  moduleName = "SeSAC Daily 7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SeSAC-iOS/8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8E%E1%85%A1/SeSAC%20Daily%207/SeSAC%20Daily%207/EmotionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "764">
+               </Location>
+               <Location
+                  uuid = "2ED3C32F-7FCA-489A-A90B-9CE3C872CAD1 - a1015cd7dcdcfa28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeSAC_Daily_7.EmotionViewController.pressButton(__C.UIButton) -&gt; ()"
+                  moduleName = "SeSAC Daily 7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SeSAC-iOS/8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8E%E1%85%A1/SeSAC%20Daily%207/SeSAC%20Daily%207/EmotionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97BBDC12-0E51-48F7-A63D-22F13E4DDB9F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeSAC Daily 7/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "308074F7-5B09-447F-A6A5-2F8474435F37"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeSAC Daily 7/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
